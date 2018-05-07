@@ -2,12 +2,13 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/testutil"
-	"github.com/sogko/todomvc-relay-go/data"
 	"io/ioutil"
 	"log"
 	"os"
+
+	"github.com/MatthiasHertel/todomvc-relay-go/data"
+	"github.com/graphql-go/graphql"
+	"github.com/graphql-go/graphql/testutil"
 )
 
 func main() {

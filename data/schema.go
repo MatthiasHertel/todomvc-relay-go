@@ -1,8 +1,9 @@
 package data
 
 import (
+	"context"
+
 	"github.com/graphql-go/graphql"
-	"golang.org/x/net/context"
 	"github.com/graphql-go/relay"
 )
 
